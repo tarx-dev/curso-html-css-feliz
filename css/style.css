@@ -7,6 +7,14 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 5px 5px 0px #000000;
 }
 
 nav {
@@ -29,7 +37,7 @@ a {
 
 a::before {
   content: "";
-  background-color: #4b4446;
+  background-color: #40407a;
   width: 10px;
   height: 10px;
   margin-right: 10px;
@@ -37,18 +45,15 @@ a::before {
 
 #headerButton {
   display: inline-block;
-  background-color: #4b4446;
+  background-color: #40407a;
   height: 60px;
   line-height: 60px; /* height e line height tem que ser mesma altura para centralizar vertical, so funciona com uma linha*/
-  padding: 18px 20px;
+  padding: 10px 20px;
   box-shadow: 5px 5px 0px #000000;
   margin-right: 0;
+  transition: transform 100ms linear;
 }
 
-#headerButton :hover {
-  background-color: #19187a;
-}
-
-a:hover {
-  background-color: #000000;
+#headerButton:hover {
+  transform: scale(1.08);
 }
