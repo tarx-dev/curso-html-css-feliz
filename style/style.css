@@ -10,7 +10,7 @@ header {
   align-items: center;
 }
 
-h1 {
+header h1 {
   font-family: "Press Start 2P";
   font-size: 30px;
   color: #fff;
@@ -56,4 +56,34 @@ a::before {
 
 #headerButton:hover {
   transform: scale(1.08);
+}
+
+section {
+  background-image: url("../assets/img/photo.png"),
+    url("../assets/img/photo2.png");
+  background-repeat: no-repeat;
+}
+
+button {
+  display: inline-flex;
+  background-color: none;
+  border: none;
+  position: absolute;
+}
+
+.buttonBanner1 {
+  background-color: #40407a;
+  height: 60px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 0px #000000;
+  transition: transform 100ms linear;
+  align-items: center;
+}
+
+.buttonBanner2 {
+  background-color: #40407a;
+  height: 60px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 0px #000000;
+  transition: transform 100ms linear;
 }
