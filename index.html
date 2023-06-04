@@ -16,18 +16,15 @@
     />
     <link rel="stylesheet" href=".//style/reset.css" />
     <link rel="stylesheet" href="./style/components/box.css" />
-    <link rel="stylesheet" href="./style/components/title.css" />
+    <link rel="stylesheet" href="./style/components/main-title.css" />
     <link rel="stylesheet" href="./style/components/subtitle.css" />
     <link rel="stylesheet" href="./style/components/button.css" />
     <link rel="stylesheet" href="./style/components/action.css" />
     <link rel="stylesheet" href="./style/components/header.css" />
     <link rel="stylesheet" href="./style/components/banner.css" />
     <link rel="stylesheet" href="./style/components/section.css" />
-    <link rel="stylesheet" href="./style/components/boxSkills.css" />
-    <link rel="stylesheet" href="./style/components/skills.css" />
-    <link rel="stylesheet" href="./style/components/skills2.css" />
-    <link rel="stylesheet" href="./style/components/subtitle2.css" />
-    <link rel="stylesheet" href="./style/components/barProgress.css" />
+    <link rel="stylesheet" href="./style/components/skill-tec.css" />
+    <link rel="stylesheet" href="./style/components/progress-bar.css" />
   </head>
 
   <body>
@@ -45,7 +42,7 @@
     <section class="banner">
       <div class="wrapper">
         <div class="box">
-          <h1 class="title">Tarcísio CA</h1>
+          <h1 class="main-title">Tarcísio CA</h1>
           <h2 class="subtitle">FrontEnd Developer</h2>
         </div>
 
@@ -57,59 +54,20 @@
     </section>
 
     <section class="section">
-      <h1 class="title -second">Skills</h1>
+      <h1 class="main-title -second">Skills</h1>
 
-      <div class="boxSkills">
-        <div class="skills">
-          <img src=".//assets/img/ico_html5.png" alt="" />
-          <h2 class="subtitle2">HTML</h2>
-          <progress class="barProgress" value="80" max="100">80%</progress>
+      <article class="skill-tec">
+        <img
+          class="icon"
+          src=".//assets/img/ico_html5.png"
+          alt="Pixelart logo HTML5"
+        />
+
+        <div class="right">
+          <h3 class="title">HTML</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
         </div>
-
-        <div class="skills">
-          <img src=".//assets/img/ico_css3.png" alt="" />
-          <h2 class="subtitle2">CSS</h2>
-          <progress class="barProgress" value="80" max="100">80%</progress>
-        </div>
-
-        <div class="skills">
-          <img src=".//assets/img/ico_js.png" alt="" />
-          <h2 class="subtitle2">JavaScript</h2>
-          <progress class="barProgress" value="80" max="100">80%</progress>
-        </div>
-
-        <div class="skills">
-          <img src=".//assets/img/ico_react.png" alt="" />
-          <h2 class="subtitle2">React</h2>
-          <progress class="barProgress" value="80" max="100">80%</progress>
-        </div>
-
-        <div class="skills2">
-          <div class="skills">
-            <img src=".//assets/img/ico_nodejs.png" alt="" />
-            <h2 class="subtitle2">NodeJS</h2>
-            <progress class="barProgress" value="80" max="100">80%</progress>
-          </div>
-
-          <div class="skills">
-            <img src=".//assets/img/ico_tdd.png" alt="" />
-            <h2 class="subtitle2">TDD</h2>
-            <progress class="barProgress" value="80" max="100">80%</progress>
-          </div>
-
-          <div class="skills">
-            <img src=".//assets/img/ico_restapi.png" alt="" />
-            <h2 class="subtitle2">Rest API</h2>
-            <progress class="barProgress" value="80" max="100">80%</progress>
-          </div>
-
-          <div class="skills">
-            <img src=".//assets/img/ico_ux.png" alt="" />
-            <h2 class="subtitle2">UX</h2>
-            <progress class="barProgress" value="80" max="100">80%</progress>
-          </div>
-        </div>
-      </div>
+      </article>
     </section>
   </body>
 </html>
