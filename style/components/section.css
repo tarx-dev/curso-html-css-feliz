@@ -1,6 +1,6 @@
-.bannerSkills {
-  box-sizing: border-box;
-  height: 730px;
+.section {
+  padding-top: 50px;
+  padding-bottom: 100px;
   background-color: #40407a;
   border-bottom: 10px solid #cf2250;
 }
