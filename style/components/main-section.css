@@ -12,6 +12,13 @@
   border-bottom: 10px solid #40407a;
 }
 
+.main-section.-third {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #cf2250;
+  border-bottom: 10px solid #000;
+}
+
 .main-section .main-title {
   margin-bottom: 60px;
 }
