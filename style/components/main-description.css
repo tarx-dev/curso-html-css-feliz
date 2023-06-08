@@ -1,4 +1,4 @@
-.text-about {
+.main-description {
   font-family: "Fira Code";
   font-style: normal;
   font-weight: 300;
@@ -6,6 +6,7 @@
   line-height: 39px;
   color: #ffffff;
 
+  display: flex;
   text-align: justify;
   width: 1280px;
   height: 312px;
