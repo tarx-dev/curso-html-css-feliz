@@ -1,0 +1,29 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: "Fira Code", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 39px;
+}
+
+.contact-form .main-button.-contactBtn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+  padding: auto;
+}
+
+.contact-form .forms {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.contact-form .inputs {
+  border: 5px solid #000000;
+}

@@ -19,6 +19,13 @@
   border-bottom: 10px solid #000;
 }
 
+.main-section.-fourth {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #3a4042;
+  border: none;
+}
+
 .main-section .main-title {
   margin-bottom: 60px;
 }
