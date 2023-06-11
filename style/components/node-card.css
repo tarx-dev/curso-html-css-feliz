@@ -33,3 +33,11 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.node-card.-clean .logo {
+  padding: 0;
+}
+
+.node-card.-colorfirst .logo {
+  background-color: #40407a;
+}
