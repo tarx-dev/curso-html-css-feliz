@@ -17,3 +17,8 @@
 .main-button.-contactBtn {
   width: 100%;
 }
+
+.main-button.-contactBtn:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
