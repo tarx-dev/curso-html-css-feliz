@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="./style/components/node-card.css" />
     <link rel="stylesheet" href="./style/components/main-carousel.css" />
     <link rel="stylesheet" href="./style/components/contact-form.css" />
+    <link rel="stylesheet" href="./style/components/main-label.css" />
     <link rel="stylesheet" href="./style/components/main-footer.css" />
   </head>
 
@@ -277,18 +278,14 @@
       <h1 class="main-title -second">Contacts</h1>
 
       <form class="contact-form" action="">
-        <label class="forms" for="Name">Name</label>
-        <input class="inputs" type="text" />
-        <label class="forms" for="email">E-mail</label>
-        <input class="inputs" type="email" />
-        <label class="forms" for="mensagem">Mensagem</label>
-        <textarea
-          class="inputs"
-          name="Mensagem"
-          id="mensagem"
-          cols="30"
-          rows="10"
-        ></textarea>
+        <label class="main-label" for="Name">Name</label>
+        <input class="inputs" id="Name" type="text" />
+
+        <label class="main-label" for="Email">E-mail</label>
+        <input class="inputs" id="Email" type="email" />
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="inputs" name="message" id="message"></textarea>
         <button type="submit" class="main-button -contactBtn">Send</button>
       </form>
     </section>
