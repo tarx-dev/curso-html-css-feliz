@@ -10,3 +10,7 @@
 .main-input.-txtarea {
   height: 320px;
 }
+
+.main-input.-txtarea {
+  margin-bottom: 40px;
+}
