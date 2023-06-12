@@ -15,18 +15,5 @@
 }
 
 .main-button.-contactBtn {
-  font-family: "Fira Code", Courier, monospace;
-  display: inline-block;
-  background-color: #40407a;
-  box-shadow: 5px 5px 0px #000000;
-  padding: 18px 20px;
-  margin-right: 0;
-  transition: transform 100ms linear;
-  font-size: 30px;
-  font-weight: 300;
-  color: #fff;
-  text-decoration: none;
-  width: 50%;
-  height: 60px;
-  text-align: center;
+  width: 100%;
 }
